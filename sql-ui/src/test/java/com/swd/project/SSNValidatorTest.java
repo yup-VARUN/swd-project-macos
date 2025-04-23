@@ -1,5 +1,9 @@
 package com.swd.project;
+
+import org.junit.jupiter.api.Test;
+
 public class SSNValidatorTest {
+    @Test
     public static void main(String[] args) {
         SSNValidator validator = SSNValidatorSingleton.getInstance();
 

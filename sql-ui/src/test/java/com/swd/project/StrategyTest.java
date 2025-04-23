@@ -2,8 +2,10 @@ package com.swd.project;
 import java.util.ArrayList;
 import java.util.List;
 
-public class StrategyTest {
+import org.junit.jupiter.api.Test;
 
+public class StrategyTest {
+	@Test
 	public static void main(String[] args) {
 		List<Employee> employeeList = new ArrayList<>();
 		List<Payment> paymentList = new ArrayList<>();

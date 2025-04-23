@@ -14,7 +14,7 @@ public class EmployeeTest {
 	   static final String QUERY = "SELECT * FROM employees";
 
 		@Test  
-	   public static void main(String[] args) {
+	    public static void main(String[] args) {
 		      try(Connection conn = DriverManager.getConnection(DB_URL, USER, PASS);
 		    	         Statement stmt = conn.createStatement();
 		    	         ResultSet rs = stmt.executeQuery(QUERY);) {
@@ -38,8 +38,8 @@ public class EmployeeTest {
 		    	        	  
 		    	        	  System.out.println(exampleEmployee.asString());
 		    	          }
-		    	      } catch (SQLException e) {
-		    	         e.printStackTrace();
-		    	      }
+		    	        } catch (SQLException e) {
+		    	           e.printStackTrace();
+		    	        }
 	   }
 }

@@ -2,6 +2,8 @@ package com.swd.project;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.junit.jupiter.api.Test;
+
 /**
  * Tester class for EmployeeUpdaterSingleton
  * TODO: Write more test cases corresponding to 5a and 5b project deliverables.
@@ -9,7 +11,7 @@ import java.util.List;
  * @author Debra Ritter
  */
 public class EmployeeUpdaterSingletonTest {
-
+	@Test
 	public static void main(String[] args) {
 		List<Employee> employeeList = new ArrayList<>();
 		NameStrategy nameTester = new NameStrategy();

@@ -5,12 +5,14 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
+import org.junit.jupiter.api.Test;
+
 public class PaymentTest {
 	   static final String DB_URL = "jdbc:mysql://localhost:3306/swd_company_db";
 	   static final String USER = "root";
 	   static final String PASS = "root";
 	   static final String QUERY = "SELECT * FROM payments";
-	   
+	   @Test
 	   public static void main(String[] arg) {
 		   try (Connection conn = DriverManager.getConnection(DB_URL, USER, PASS);
 				   Statement stmt = conn.createStatement();
