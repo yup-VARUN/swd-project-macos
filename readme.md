@@ -48,7 +48,6 @@ That's how you request the owner of the original repository to see and merge you
 <br>
 <br>
 
-<hr>
 
 <i>VERY IMPORTANT READ IF YOU'RE NEW TO: **SQL** or **JAVA** or **MAVEN**:</i>
 
