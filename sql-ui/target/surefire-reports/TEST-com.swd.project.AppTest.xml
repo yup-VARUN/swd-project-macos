@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.swd.project.AppTest" time="0.017" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.swd.project.AppTest" time="0.028" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="23"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/23.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/varunahlawat/Work/FINAL_SWD_PROJECT/sql-ui/target/surefire/surefirebooter10892261941542611500.jar /Users/varunahlawat/Work/FINAL_SWD_PROJECT/sql-ui/target/surefire 2025-04-23T03-50-42_877-jvmRun1 surefire9342024431425124142tmp surefire_0336360842708453305tmp"/>
+    <property name="sun.java.command" value="/Users/varunahlawat/Work/FINAL_SWD_PROJECT/sql-ui/target/surefire/surefirebooter9569089966339857700.jar /Users/varunahlawat/Work/FINAL_SWD_PROJECT/sql-ui/target/surefire 2025-04-28T12-29-09_776-jvmRun1 surefire11310754298758943340tmp surefire_01246744541077177626tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="test" value="com.swd.project.AppTest"/>
@@ -30,7 +30,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/varunahlawat/Work/FINAL_SWD_PROJECT/sql-ui/target/surefire/surefirebooter10892261941542611500.jar"/>
+    <property name="surefire.real.class.path" value="/Users/varunahlawat/Work/FINAL_SWD_PROJECT/sql-ui/target/surefire/surefirebooter9569089966339857700.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="23.0.2"/>
@@ -60,5 +60,5 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="67.0"/>
   </properties>
-  <testcase name="testApp" classname="com.swd.project.AppTest" time="0.011"/>
+  <testcase name="testApp" classname="com.swd.project.AppTest" time="0.019"/>
 </testsuite>
